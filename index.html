@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunker Shot</title>
+<meta name="description" content="Bunker Shot is the group-round app for iPhone: score the same round together on separate phones, then get earned nicknames, roast cards, rivalry records, and a narrative recap when you finish.">
+<meta property="og:title" content="Bunker Shot">
+<meta property="og:description" content="Play the round together, settle it afterwards — shared live scoring, rivalry records, and post-round stories.">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --bg: #f7f8f6;
+    --card: #ffffff;
+    --text: #1c231d;
+    --muted: #5b6660;
+    --accent: #1f6f43;
+    --border: #e3e7e2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141815;
+      --card: #1c211d;
+      --text: #eef1ec;
+      --muted: #a7b0a9;
+      --accent: #4fbf85;
+      --border: #2b322c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .tagline {
+    margin: -8px 0 12px;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .card {
+    max-width: 420px;
+    text-align: center;
+    padding: 40px 32px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--card);
+  }
+  h1 { margin: 0 0 8px; font-size: 1.6rem; }
+  p { color: var(--muted); margin: 0 0 24px; }
+  .links { display: flex; gap: 12px; justify-content: center; }
+  a.btn {
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Bunker Shot</h1>
+    <p class="tagline">Play the round together</p>
+    <p>Score the same round on separate iPhones with a live leaderboard, then settle it
+      afterwards with earned nicknames, roast cards, rivalry records, and a recap of how
+      the round actually went.</p>
+    <div class="links">
+      <a class="btn" href="./support.html">Support</a>
+      <a class="btn" href="./privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
